@@ -29,3 +29,37 @@ speech {
 .police officer {
     color: red;
 }
+table { 
+    border: dashed 3px;
+    overflow: auto;
+    font-size: large;
+    text-align: center;
+    border-collapse: separate;
+}
+table.collapsing { 
+    border: solid 3px;
+    border-collapse: collapse;
+    outline: solid 2px rgb(54, 13, 13);
+}
+td, th {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: medium;
+    border: solid 1px;
+    text-align: center;
+    color: indigo;
+}
+tr {
+    background-color:rgb(137, 211, 134) ;
+}
+tr:nth-child(even) {
+    background-color: #c4b1b1;
+}
+.name:hover{
+    color: violet;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
