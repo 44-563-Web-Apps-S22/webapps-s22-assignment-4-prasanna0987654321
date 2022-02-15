@@ -1,0 +1,31 @@
+
+speech {
+    font-family:'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.direction {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+    background-color: #E6E6FA;
+
+}
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+}
+.direction:hover{
+    background-color:rgb(14, 99, 71);
+    color: rgb(213, 217, 221);
+}
+.harpagon {
+    color: blue;
+}
+.jacques {
+    color: purple;
+}
+.police officer {
+    color: red;
+}
